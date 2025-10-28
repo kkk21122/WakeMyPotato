@@ -18,7 +18,7 @@ if ! dpkg -s "upower" > /dev/null 2>&1; then
     echo ""
     echo "!!! ABORTING: missing package 'upower'" >&2
     echo "Please install it before running the installation script:" >&2
-    echo "sudo apt install upower" >&2
+    echo "sudo dnf install upower" >&2
     echo ""
     exit 1
 fi
